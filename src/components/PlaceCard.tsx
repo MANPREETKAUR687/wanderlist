@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 type PlaceCardProps = {
   name: string;
   category: string;
-  notes: string;
+  notes?: string;
 };
 
 export default function PlaceCard({
